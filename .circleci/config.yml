@@ -26,7 +26,7 @@ workflows:
             tags:
               only: /.*/
       - orb-tools/publish:
-          orb-name: atlassian-labs/compass
+          orb-name: moneytree/compass
           pub-type: production
           vcs-type: << pipeline.project.type >>
           requires:
