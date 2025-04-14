@@ -4,7 +4,7 @@ description: |
 usage:
   version: 2.1
   orbs:
-    compass: atlassian-labs/compass@x.y.z
+    compass: moneytree/compass@x.y.z
   jobs:
     deploy:
       docker:
